@@ -16,6 +16,46 @@
 <link rel="shortcut icon" href="/static/images/16.ico" type="image/x-icon" />
 <script data-ad-client="ca-pub-2102445547198091" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" type="4bb5d4475bc4d6709c09f8a0-text/javascript"></script></head>
 <body>
+
+ <center><div id="home" class="header" style="background-color:#3c7ad9;">
+<div class="top-header"><h6<p style="color:rgb(254, 250, 250)"> Next Result </h6>
+     <p id="demo"></p>
+        <script>
+            // Set the date we're counting down to
+            var countDownDate = new Date("Oct 2, 2023 21:00:00").getTime();
+            
+            // Update the count down every 1 second
+            var x = setInterval(function() {
+            
+              // Get today's date and time
+              var now = new Date().getTime();
+                
+              // Find the distance between now and the count down date
+              var distance = countDownDate - now;
+                
+              // Time calculations for days, hours, minutes and seconds
+              var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+              var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+              var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+              var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                
+              // Output the result in an element with id="demo"
+              document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+              + minutes + "m " + seconds + "s ";
+                
+              // If the count down is over, write some text 
+              if (distance < 0) {
+                clearInterval(x);
+                document.getElementById("demo").innerHTML = "EXPIRED";
+              }
+            }, 1000);
+            </script></p>
+    </div></p>
+    </div>
+</div>
+</div></center>
+
+     
 <div id="home" class="header" style="background-color:#3c7ad9;">
 <div class="top-header">
 <!--<a href="/"><img src="https://d33wubrfki0l68.cloudfront.net/e38f5651ee4b961b9bd2e412c83d9c77092aff21/e633f/static/images/shillong_teer_ground_logo.png" height="50" title="Teer Logo" alt="Shillong Teer Ground Logo" /></a>-->
